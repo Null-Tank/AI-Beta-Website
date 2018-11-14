@@ -1,3 +1,31 @@
-body{
-    background: linear-gradient(180deg, #7900F2 6.08%, rgba(242, 0, 217, 0) 100%), #00E0FF;
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+#container{
+    display:block;
+    margin:auto;
+}
+
+#splashContainer{
+    width: 90%;
+    height: 50%;
+    position: fixed;
+}
+
+#product-title{
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 96px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 5px rgba(255, 255, 255, 0.28);
+    text-align:center;
+
+    display: block;
+
+    margin-top: 15%;
+
+
 }
