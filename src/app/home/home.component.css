@@ -2,12 +2,19 @@
 
 #container{
     display:block;
+    width: 1280px;
+    height: 720px;
     margin:auto;
 }
 
 #splashContainer{
- 
+    position: relative;
+    top: 40%;
+    transform: perspective(1px) translateY(-50%);
     padding: 30px;
+    margin: auto;
+    width: 720px;
+
 }
 
 #product-title{
@@ -15,7 +22,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 96px;
+    font-size: 128px;
     color: #FFFFFF;
     text-shadow: 0px 4px 5px rgba(255, 255, 255, 0.28);
     text-align:center;
