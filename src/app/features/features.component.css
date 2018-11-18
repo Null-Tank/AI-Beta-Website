@@ -16,6 +16,11 @@
     display:block;
     color: #ffffff;
     float:right;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 30px;
 }
 
 .feature-img{
