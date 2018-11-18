@@ -1,11 +1,19 @@
 html, body{
     height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(180deg, #7900F2 6.08%, rgba(242, 0, 217, 0) 100%), #00E0FF fixed;
+    background-repeat:no-repeat;
     margin: 0;
 }
 
 body{
     min-height: 100%;
     position: relative;
-    background: linear-gradient(180deg, #7900F2 6.08%, rgba(242, 0, 217, 0) 100%), #00E0FF fixed;
+
+
+   
 }
 
