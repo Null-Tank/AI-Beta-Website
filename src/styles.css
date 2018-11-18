@@ -6,5 +6,6 @@ html, body{
 body{
     min-height: 100%;
     position: relative;
-    background: linear-gradient(180deg, #7900F2 6.08%, rgba(242, 0, 217, 0) 100%), #00E0FF;
+    background: linear-gradient(180deg, #7900F2 6.08%, rgba(242, 0, 217, 0) 100%), #00E0FF fixed;
 }
+
