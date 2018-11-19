@@ -9,6 +9,10 @@ export class DownloadComponent implements OnInit {
 
   constructor() { }
 
+  downloadExe(){
+    console.log("works");
+  }
+
   ngOnInit() {
   }
 

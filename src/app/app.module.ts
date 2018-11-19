@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { DownloadComponent } from './download/download.component';
 import { DevelopersComponent } from './developers/developers.component';
 import { FeaturesComponent } from './features/features.component';
+import { PageComponent } from './page/page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FeaturesComponent } from './features/features.component';
     HomeComponent,
     DownloadComponent,
     DevelopersComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule,
